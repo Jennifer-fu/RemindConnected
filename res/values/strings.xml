@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">RemindConnected</string>
+    <string name="editable_text">Please edit the text</string>
+    <string name="button_send">Send</string>
 </resources>

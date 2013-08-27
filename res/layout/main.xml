@@ -9,5 +9,15 @@
             android:layout_height="wrap_content"
             android:text="Hello World, My first android app!"
             />
+    <EditText android:id="@+id/editable_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="@string/editable_text"
+            />
+
+    <Button android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/button_send"/>
 </LinearLayout>
 
