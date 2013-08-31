@@ -12,6 +12,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".DisplayMessageActivity" android:label="@string/activity_display_message"
+                android:parentActivityName="com.example.VibratorActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.example.VibratorActivity"/>
+        </activity>
     </application>
     <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
 </manifest>

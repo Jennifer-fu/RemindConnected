@@ -3,4 +3,5 @@
     <string name="app_name">RemindConnected</string>
     <string name="editable_text">Please edit the text</string>
     <string name="button_send">Send</string>
+    <string name="activity_display_message">DisplayMessage</string>
 </resources>
