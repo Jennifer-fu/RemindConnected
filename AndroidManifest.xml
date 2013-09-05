@@ -4,17 +4,17 @@
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="18"/>
-    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
-        <activity android:name=".VibratorActivity"
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:theme="@style/CustomActionBarTheme">
+        <activity android:name=".MainActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayMessageActivity" android:label="@string/activity_display_message"
-                android:parentActivityName="com.example.VibratorActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.example.VibratorActivity"/>
+        <activity android:name=".DisplayMessageActivity"
+                  android:label="@string/activity_display_message"
+                  android:parentActivityName="com.example.RemindConnected.MainActivity">
         </activity>
     </application>
     <uses-permission android:name="android.permission.VIBRATE"/>
